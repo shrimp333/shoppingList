@@ -124,6 +124,7 @@ namespace shoppingList
         
         static void listItems()
         {
+            Console.Clear();
             for (int i = 0; i < itemList.Count(); i++)
             {
                 Console.WriteLine($"Name: {itemList[i].title} Quantity: {itemList[i].quantity} Unit Price: ${itemList[i].unitPrice}");
